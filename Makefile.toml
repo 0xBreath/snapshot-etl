@@ -1,0 +1,5 @@
+[config]
+default_to_workspace = false
+
+[tasks.backfill]
+script = "cargo run -r -p backfill"

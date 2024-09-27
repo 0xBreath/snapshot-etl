@@ -1,0 +1,27 @@
+[package]
+name = "backfill"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+anchor-gen = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+clap = { workspace = true }
+cloud-storage = { workspace = true }
+common = { path = "../common" }
+crossbeam-channel = { workspace = true }
+dotenv = { workspace = true }
+gcs = { path = "../gcs" }
+log = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+simplelog = { workspace = true }
+snapshot = { path = "../snapshot" }
+solana-sdk = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tokio-retry = { workspace = true }
+rayon = { workspace = true }
+drift-cpi = { path = "../idls/drift" }
